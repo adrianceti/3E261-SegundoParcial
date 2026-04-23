@@ -1,4 +1,11 @@
-#include<iosream>
-int main (argc, argv)
-return EXIT_SUCCES;
+#include<iostream>
+int main(int argc, char const *argv[])
+{
+    while (condition)
+    {
+        
+    }
+    
+
+    return 0;
 }
