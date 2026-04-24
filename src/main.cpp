@@ -6,11 +6,9 @@ int main(int argc, char const *argv[])
 {
     SerieFocos serie;
     serie.EncenderFocos();
-    serie.MostrarFocos();
+    serie.MostarFocos();
     serie.ApagarFocos();
-    serie.MostrarFocos();
-    
-
+    serie.MostarFocos();
 
     return 0;
 }
