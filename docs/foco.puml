@@ -18,6 +18,6 @@ class SerieFocos{
 usuario o-- Foco
 Foco *-- EstadoFoco
 EstadoFoco--|>Texto
-SerieFocos*-- Focos
+SerieFocos "1"*-- Focos "10" Foco
 usuario o-- SerieFocos
 @enduml
