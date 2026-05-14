@@ -23,5 +23,11 @@ int main() {
     cout << direccion << endl;
     cout << & direccion << endl;
     cout << * direccion << endl;
+    cout << malloc (4) << endl;
+  int* dir = (int*) malloc(4);
+  int* dir = (int*) malloc(sizeof(int));
+    *dir = 7;
+    cout << *dir << endl;
+    int* dir2 = new int;
     return 0;
 }
